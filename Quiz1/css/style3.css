@@ -1,0 +1,156 @@
+/*Main Header*/
+header {
+  width: 100%;
+  float: left;
+}
+
+/*Logo Styling*/
+header .logo{
+  width: 150px;
+  float: left;
+}
+header .logo img {
+  width: 100%;
+}
+/*Primary Menu Styling*/
+header #primary-menu {
+  float: right;
+  margin-top: 40px;
+  
+}
+header #primary-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header #primary-menu ul li {
+  display: inline-block; 
+}
+header #primary-menu ul li a {
+  display: block;
+  color: #000;
+  /* color: yellow;*/
+  padding: 16px;
+  text-decoration: none;
+}
+header #primary-menu ul li a:hover {
+  background: #111111;
+  color: #fff;
+}
+/*Seondary Menu*/
+.secondary-menu {
+  width: 100%;
+  float: left;
+  text-align: center;
+  background: #111111;
+  margin: 20px 0 40px 0;
+}
+/*UL will have margin and padding 0*/
+.secondary-menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.secondary-menu ul li {
+  display: inline-block;
+}
+.secondary-menu ul li a {
+  display: block;
+  color: #fff;
+  padding: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.secondary-menu ul li a:hover {
+  background: #fff;
+  color: #000;
+}
+/*Receipe List*/
+.receipe {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.receipe div {
+  width: 25%;
+  float: left;
+  background: gray;
+  padding: 10px 0 10px 0;   /* what its sequence? */
+  margin: 0 0 30px 0;      /*what its sequence?*/
+}
+.receipe h1 {}
+.receipe img {
+  width: 260px;
+  height:195px;  
+}
+.receipe p {}
+.receipe a {
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    padding: 7px 7px 7px 7px;
+    display: inline-block;
+    border-radius: 25px;
+}
+.receipe a:hover {}
+ 
+  /* section.sec1 ul{
+    list-style-type:none;
+    margin-left: 5%;
+    margin-right: 23%;
+    overflow:hidden;
+    background-color:white; 
+  } */
+
+  
+  section.sec3 li{
+    float:left;
+    border:1px solid;
+  }
+  section.sec3 ol{
+    list-style-type:none;
+    margin-left: 25%;
+    margin-right: 25%;
+    overflow:hidden;
+    background-color:white; 
+  }
+
+  section.sec3 a{
+    display:inline-block;
+    color:#000;
+    text-align:left;
+    padding: 13px;
+    text-decoration: solid; 
+  }
+  footer{
+    background-color: #000;
+  }
+
+  footer.fot1 ul{
+    list-style-type: none;
+  }
+  footer.fot1 a{
+    color: #000;
+  }
+
+  footer.fot1 div{
+    width: 260px;
+    height: 200px;
+    float:left;
+  }
+
+  /* footer .div2{
+    background-color: white;
+  }
+
+  footer .div3{
+    background-color:white; 
+  }
+
+  footer .div4{
+    background-color: white;
+  }
+
+  footer .div5{
+    background-color:white; 
+  } */
