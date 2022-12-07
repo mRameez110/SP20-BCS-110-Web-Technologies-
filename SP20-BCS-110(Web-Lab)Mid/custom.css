@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header {
     width:100%;
     float:left;
@@ -109,4 +110,117 @@ header .logo{
   .caption {
     margin-top: 20px;
     text-align: center;
+=======
+header {
+    width:100%;
+    float:left;
+}
+
+/*Logo Styling*/
+header .logo{
+    width: 300px;
+    float: left;
+    margin-top: 40PX;
+  }
+
+  header .logo img {
+    width: 100%;
+    
+  }
+
+  header .add {
+    float:right;
+    margin-right: 200px;
+    margin-top: 40px;
+  }
+
+  .menu {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background: #111111;
+    margin: 20px 0 40px 0;
+  }
+
+  .menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .menu ul li {
+    display: inline-block;
+  }
+
+  .menu ul li a {
+    display: block;
+    color: #fff;
+    padding: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .search {
+    margin-left: 50px;
+    width:30px;
+    height:10px;
+    /* float:right; */
+  }
+  .search img {
+    width:100%;
+  }
+
+  .menu ul li a:hover {
+    background: blue;
+    color: white;
+  }
+
+          /* for images in the section portion */
+
+   /* .images {
+    width:100%;
+  }   */
+
+   .images {
+    width:100%;
+    float:left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* background-color: yellow; */
+  }
+  
+  .d1 {
+    width:50%;
+    height: 400px;
+    float:left;
+    background-color:blue;
+  }  
+  .d2 {
+    width:50%;
+    height: 200px;
+    float:left;
+    background-color:black;
+  }
+  
+  .d3 {
+    width:25%;
+    height: 200px;
+    float:left;
+    background-color:red;
+  }
+  .d4 {
+    width:25%;
+    height: 200px;
+    float:left;
+    background-color:green;
+  }
+  .images h3 {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .caption {
+    margin-top: 20px;
+    text-align: center;
+>>>>>>> 8df7dc9d78ffbdd3c017faf7cc4d89140c0284c0
   }
